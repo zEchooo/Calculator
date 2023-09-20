@@ -1,4 +1,4 @@
-package samp;
+package myPackage;
 
 public class Test {
 
