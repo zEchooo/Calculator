@@ -7,7 +7,7 @@ class Person {
 
     public Person(String name, int seatNumber) {
         this.name = name;
-        this.seatNumber = seatNumber;
+        this.seatNumber = seatNumber;//comment
     }
 
     public void purchaseTicket() {
