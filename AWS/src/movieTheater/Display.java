@@ -14,6 +14,7 @@ public class Display {
 		this.cutOffTime = cutOffTime;
 		this.dateAndTime = dateAndTime;
 		System.out.println("commit try");//commit try
+		System.out.println("commit try");//commit try
 	}
 
 
