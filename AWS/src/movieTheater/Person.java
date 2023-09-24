@@ -1,7 +1,7 @@
 package movieTheater;
 
 class Person {
-    private String name; //please naman aba aba
+    private String name; //trial
     private int seatNumber;
     private boolean ticketPurchased = false;
 
