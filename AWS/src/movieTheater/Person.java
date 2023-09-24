@@ -28,6 +28,6 @@ class Person {
 
     @Override
     public String toString() {
-        return "Name: " + name + "\nSeat Number(s): " + seatNumber;
+        return "Name: " + name + "\nSeat Number(s): " + seatNumber;//aws
     }
 }
