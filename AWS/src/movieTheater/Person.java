@@ -1,6 +1,6 @@
 package movieTheater;
-
-class Person {	//customer
+//this class defines and sets the variables and methods to be used for the customer/Person
+class Person {	
     private String name; 
     private int seatNumber;
     private boolean ticketPurchased = false;
