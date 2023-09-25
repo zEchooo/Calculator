@@ -57,6 +57,8 @@ class Movie {
     }
     
     public boolean isValidSeatForTicketType(int seatNumber, String ticketType) {
+    	
+    	//seat types
     	String vip = "VIP";
     	String standard = "Standard";
     	String genAd = "General Admission";
