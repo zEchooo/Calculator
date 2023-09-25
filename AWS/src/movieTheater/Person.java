@@ -1,5 +1,6 @@
 package movieTheater;
 //this class defines and sets the variables and methods to be used for the customer/Person
+//second try for connection
 class Person {	
     private String name; 
     private int seatNumber;
