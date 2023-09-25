@@ -144,7 +144,7 @@ public class MovieTheaterTicketingSystem {
 	            
 	            System.out.println(dsp.show()); 
 	     
-	            System.out.println("Total Price: Php " + totalPrice);
+	            System.out.println("| \tTotal Price: Php " + totalPrice);
 	            reservationConfirmed = true;
 	        } else {
 	            System.out.println("Reservation declined. Please make another transaction.");
