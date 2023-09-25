@@ -1,6 +1,5 @@
 package movieTheater;
 
-
 public class Display {
 	int seatCap;
 	String movieName;
@@ -13,15 +12,14 @@ public class Display {
 		this.movieName = movieName;
 		this.cutOffTime = cutOffTime;
 		this.dateAndTime = dateAndTime;
-		System.out.println("commit try");//commit try
 	}
 
 
 	public String show() {
 		
-		return "Movie Name: " + movieName + 
-				"\nDate and Time of Streaming: " + dateAndTime +
-        "\nTheater Venue Number: 1 \nSeat Capacity: " + seatCap + "\nEntry Cutoff Time: " + cutOffTime;
+		return "| \tMovie Name: " + movieName + 
+				"\t\t\tDate and Time of Streaming: " + dateAndTime +
+        "\n| \tTheater Venue Number: 1 \t\tSeat Capacity: " + seatCap + "\n| \tEntry Cutoff Time: " + cutOffTime;
 		
 	}
 	
