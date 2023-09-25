@@ -1,7 +1,7 @@
 package movieTheater;
 
-class Person {
-    private String name; //please naman aba aba
+class Person {	//customer
+    private String name; 
     private int seatNumber;
     private boolean ticketPurchased = false;
 
@@ -26,8 +26,9 @@ class Person {
         return seatNumber;
     }
 
+    
     @Override
     public String toString() {
-        return "Name: " + name + "\nSeat Number: " + seatNumber;
+        return "Name: " + name + "\nSeat Number(s): " + seatNumber;//fixed seat cap
     }
 }
