@@ -57,11 +57,15 @@ class Movie {
     }
     
     public boolean isValidSeatForTicketType(int seatNumber, String ticketType) {
-        if ("VIP".equalsIgnoreCase(ticketType)) {
+    	String vip = "VIP";
+    	String standard = "Standard";
+    	String genAd = "General Admission";
+    	
+        if (vip.equalsIgnoreCase(ticketType)) {
             return seatNumber >= 1 && seatNumber <= vipSeats;
-        } else if ("Standard".equalsIgnoreCase(ticketType)) {
+        } else if (standard.equalsIgnoreCase(ticketType)) {
             return seatNumber >= 51 && seatNumber <= 80;
-        } else if ("General Admission".equalsIgnoreCase(ticketType)) {
+        } else if (genAd.equalsIgnoreCase(ticketType)) {
             return seatNumber >= 81 && seatNumber <= seatingCapacity;
         }
         return false;
